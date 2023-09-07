@@ -63,6 +63,9 @@ p.caption{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    position: relative;
+    align-items: center;
+    align-content: center;
 }
 
 .circle {
@@ -78,6 +81,7 @@ p.caption{
 
 .circle a {
     display: block;
+    
    
 }
 
