@@ -1,0 +1,106 @@
+body{
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b9b3c8;
+}
+
+header{
+    background-color: #652770;
+    padding: 40px;
+    text-align: center;
+
+}
+
+@font-face{
+    font-family: Monster;
+    src: url(Monster.ttf);
+}
+
+h1{
+    font-family: Monster;
+    font-size: 120px;
+    color: white;
+    text-shadow: 4px 6px rgb(55, 128, 43);
+}
+
+header img{
+    border-radius: 170px;
+    width: 300px;
+    border: 24px solid #f5f5f5;
+}
+    
+.content{
+    margin-left:10%;
+    padding: 0 20px;
+    font-size: 150%;
+}
+
+h2{
+    font-family: Monster;
+    font-size: 35px;
+}
+
+img.big-image{
+    width:80%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 15px 10px #A071A8;
+}
+
+p.caption{
+    font-size: 16px;
+    color: #103308;
+    font-style: italic;
+    padding-left: 11%;
+}
+
+.mike{
+    text-align: center;
+    font-size: 130%;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #652770;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle a {
+    display: block;
+   
+}
+
+.circle-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #150101;
+    box-shadow: 0 5px 10px white;
+}
+    
+footer{
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: #A071A8;
+ }
+
+footer ul{
+    text-align: center;
+    font-size: 100%;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
